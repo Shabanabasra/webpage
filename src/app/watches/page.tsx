@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Watches = () => {
   const watchData = [
@@ -16,14 +17,12 @@ const Watches = () => {
   return (
     <div className='watches'>
       {watchData.map((watch) => (
-        <div key={watch.id} className='watch-card'>
-          <img src={watch.img} 
-            alt={watch.name} style={{ width: "300px", height: "auto" }} />
-            <h3>{watch.name}</h3>
-            <p>{watch.desc}</p>
-            <div className='price'>${watch.price}</div>
-            <button>Add to Cart</button>
-        </div>
+        <div key={watch.id} className="watch-card">
+        <Image src={watch.img} alt={watch.name} width={300} height={300} />
+        <h2>{watch.name}</h2>
+        <p>{watch.desc}</p>
+        <p>Price: ₹{watch.price}</p>
+      </div>
       ))}
     </div>
   );
