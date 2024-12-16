@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        <section className='about' style={{backgroundImage:"url('/images/image7.JPG')",}}>
+        <section className='about' style={{backgroundImage:"url('/images/image7.jpg')",}}>
             <div className='about-content'>
                 <h2 className='fade-in'>About us</h2>
                 <p>Welcome to Watch World, where every watch is more than an accessory—it’s a symbol of style, precision, and artistry. 
