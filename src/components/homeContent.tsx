@@ -4,7 +4,7 @@ const HomeContent = () => {
   return (
     <div>
       <section
-        className="hero"style={{ backgroundImage: "url('/images/image13.JPG')",}}>
+        className="hero"style={{ backgroundImage: "url('/images/image13.jpg')",}}>
           <div>
             <h1 className="fade-in"> Welcome to Watch World</h1>
           <p>Your 0ne-stop shop for the best watches</p>
